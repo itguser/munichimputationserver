@@ -19,14 +19,14 @@ nav:
   - Create Reference Panels: create-reference-panels.md
 - Contact: contact.md
 
-repo_name: hmgu-itg/imputationserver
-repo_url: https://github.com/hmgu-itg/imputationserver
+repo_name: itguser/munichimputationserver
+repo_url: https://github.com/itguser/munichimputationserver
 edit_uri: edit/master/docs
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/hmgu-itg/imputationserver
+      link: https://github.com/itguser/munichimputationserver
 
 markdown_extensions:
     - toc:
