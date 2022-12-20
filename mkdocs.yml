@@ -23,7 +23,7 @@ edit_uri: edit/master/docs
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/itguser/munichimputationserver
+      link: https://github.com/itguser/munichimputationserver 
 
 markdown_extensions:
     - toc:
