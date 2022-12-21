@@ -1,9 +1,9 @@
 # Create a Reference Panel
 
-This tutorial will help you to create your own reference panel and integrate it into Munich Imputation Server. 
+This tutorial will help you to create your own reference panel and integrate it into Munich Server. 
 
 ## Required Software
-- To create the m3vcf files for imputation, please use [Minimac3](https://github.com/Santy-8128/Minimac3).
+- To create the m3vcf files for, please use [Minimac3](https://github.com/Santy-8128/Minimac3).
 - To create the bcf files for phasing, please use [bcftools](https://samtools.github.io/bcftools/bcftools.html) and tabix.
 - To create the legend files for QC, please use vcftools or bcftools.
 
@@ -153,6 +153,6 @@ done
 The genetic maps for eagle (hg19/hg38) can be found [here](https://data.broadinstitute.org/alkesgroup/Eagle/downloads/tables).
 
 ## Integrate your new reference panel
-The created folder structure must be compressed to a zip archive and can now be integrated into Munich Imputation Server. Please see [here](http://imputationserver.readthedocs.io/en/latest/docker/#install-1000g-phase-3-reference-panel) to start a Docker container and integrate the panel. A full working zip archive for Hapmap can be found [here](https://imputationserver.sph.umich.edu/static/downloads/releases/hapmap2-1.0.0.zip).
+The created folder structure must be compressed to a zip archive and can now be integrated into Munich Imputation Server. Please see [here](https://munichimputationserver.readthedocs.io/en/latest/docker/#install-1000g-phase-3-reference-panel) to start a Docker container and integrate the panel. A full working zip archive for Hapmap can be found [here](https://imputationserver.helmholtz-muenchen.de/static/downloads/releases/hapmap2-1.0.0.zip).
 
 
