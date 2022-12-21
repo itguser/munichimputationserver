@@ -5,7 +5,7 @@ The complete Munich Imputation Server source code is available on [GitHub](https
 
 ##Munich Imputation Server Team
 
-Michigan Imputation Server provides a free genotype imputation service using Minimac4. You can upload phased or unphased GWAS genotypes and receive phased and imputed genomes in return. For all uploaded data sets an extensive QC is performed.
+Munich Imputation Server provides a free genotype imputation service using Minimac4. You can upload phased or unphased GWAS genotypes and receive phased and imputed genomes in return. For all uploaded data sets an extensive QC is performed.
 
 * [Dr.William Rayner](mailto:william.rayner@helmholtz-muenchen.de)
 * [Hariharan Sethuraman](mailto:hariharan.sethuraman@helmholtz-muenchen.de)
