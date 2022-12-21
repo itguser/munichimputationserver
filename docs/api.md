@@ -61,7 +61,7 @@ Command:
 ```sh
 TOKEN="YOUR-API-TOKEN";
 
-curl https://imputationserver.sph.umich.edu/api/v2/jobs/submit/minimac4 \
+curl https://imputationserver.helmholtz-muenchen.de/api/v2/jobs/submit/minimac4 \
   -H "X-Auth-Token: $TOKEN" \
   -F "files=@/path-to/file.vcf.gz" \
   -F "refpanel=1000g-phase-3-v5" \
@@ -87,7 +87,7 @@ Command:
 ```sh
 TOKEN="YOUR-API-TOKEN";
 
-curl https://imputationserver.sph.umich.edu/api/v2/jobs/submit/minimac4 \
+curl https://imputationserver.helmholtz-muenchen.de/api/v2/jobs/submit/minimac4 \
   -H "X-Auth-Token: $TOKEN" \
   -F "files=@/path-to/file1.vcf.gz" \
   -F "files=@/path-to/file2.vcf.gz" \
@@ -115,9 +115,9 @@ Command:
 ```sh
 TOKEN="YOUR-API-TOKEN";
 
-curl  https://imputationserver.sph.umich.edu/api/v2/jobs/submit/minimac4 \
+curl  https://imputationserver.helmholtz-muenchen.de/api/v2/jobs/submit/minimac4 \
   -H "X-Auth-Token: $TOKEN" \
-  -F "files=https://imputationserver.sph.umich.edu/static/downloads/hapmap300.chr1.recode.vcf.gz" \
+  -F "files=https://imputationserver.helmholtz-muenchen.de/static/downloads/hapmap300.chr1.recode.vcf.gz" \
   -F "files-source=http" \
   -F "refpanel=hrc-r1.1" \
   -F "population=eur" \
@@ -144,7 +144,7 @@ import requests
 import json
 
 # imputation server url
-url = 'https://imputationserver.sph.umich.edu/api/v2'
+url = 'https://imputationserver.helmholtz-muenchen.de/api/v2'
 token = 'YOUR-API-TOKEN';
 
 # add token to header (see Authentication)
@@ -174,7 +174,7 @@ import requests
 import json
 
 # imputation server url
-url = 'https://imputationserver.sph.umich.edu/api/v2'
+url = 'https://imputationserver.helmholtz-muenchen.de/api/v2'
 token = 'YOUR-API-TOKEN';
 
 # add token to header (see Authentication)
@@ -210,7 +210,7 @@ Command:
 ```sh
 TOKEN="YOUR-API-TOKEN";
 
-curl -H "X-Auth-Token: $TOKEN" https://imputationserver.sph.umich.edu/api/v2/jobs
+curl -H "X-Auth-Token: $TOKEN" https://imputationserver.helmholtz-muenchen.de/api/v2/jobs
 ```
 
 Response:
@@ -252,7 +252,7 @@ import requests
 import json
 
 # imputation server url
-url = 'https://imputationserver.sph.umich.edu/api/v2'
+url = 'https://imputationserver.helmholtz-muenchen.de/api/v2'
 token = 'YOUR-API-TOKEN';
 
 # add token to header (see authentication)
@@ -279,7 +279,7 @@ Command:
 ```sh
 TOKEN="YOUR-API-TOKEN";
 
-curl -H "X-Auth-Token: $TOKEN" https://imputationserver.sph.umich.edu/api/v2/jobs/job-20160504-155023/status
+curl -H "X-Auth-Token: $TOKEN" https://imputationserver.helmholtz-muenchen.de/api/v2/jobs/job-20160504-155023/status
 ```
 
 Response:
