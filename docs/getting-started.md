@@ -122,7 +122,7 @@ We notify you by email as soon as the job is finished or your data don't pass th
 
 In a first step we check if your uploaded files are valid and we calculate some basic statistics such as amount of samples, chromosomes and SNPs.
 
-![](images/Impute_validation.png)
+![](images/input_validation.png)
 
 After Input Validation has finished, basic statistics can be viewed directly in the web interface.
 
